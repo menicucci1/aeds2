@@ -1,5 +1,5 @@
 /**
- * TP01Q03 - Ciframento em Java 
+ * TP01Q04 - Alteração aleatória em Java
  * 
  * Nome: Enrico Menicucci Gomes
  * Matricula: 741176
@@ -32,7 +32,7 @@ public static void main(String[] args) {
     String[] s = new String[1000];
     int numEntrada = 0;
     char letra1, letra2;
-    
+
     Random gerador = new Random();
 	gerador.setSeed(4);
 
