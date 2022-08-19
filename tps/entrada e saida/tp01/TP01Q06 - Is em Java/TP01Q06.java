@@ -1,5 +1,5 @@
 /**
- * TP01Q05 - Álgebra Booleana em Java
+ * TP01Q06 - Is em Java
  * 
  * Nome: Enrico Menicucci Gomes
  * Matricula: 741176
@@ -73,7 +73,7 @@ class TP01Q06 {
         }
         return false;
     } 
-    
+
     public static void main(String[] args) {
         String[] s = new String[1000];
         int numEntrada = 0;
