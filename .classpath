@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="fonte/ajuda/java"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/argumentoMain"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/arquivo"/>
+	<classpathentry excluding="classeMatriz/|visibilidade/|classeRetangulo/|primeiraClasse/|estatico/" kind="src" path="fonte/u00 Nivelamento/java/classeObjeto"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/classeObjeto/classeMatriz"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/classeObjeto/classeRetangulo"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/classeObjeto/estatico"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/classeObjeto/primeiraClasse"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/classeObjeto/visibilidade"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/entradaSaida"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/ponteiro"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/recursividade"/>
+	<classpathentry kind="src" path="fonte/u00 Nivelamento/java/tratamentoExcecao"/>
+	<classpathentry kind="src" path="fonte/u01 Introdução/java"/>
+	<classpathentry kind="src" path="fonte/u04 Estruturas de dados basicas lineares/java"/>
+	<classpathentry kind="src" path="fonte/u05 Ordenação em memória principal/java"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/coletalixo"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/fila"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/listadupla"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/listasimples"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/matriz"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/pilha"/>
+	<classpathentry kind="src" path="fonte/u06 Estruturas de dados básicas flexíveis/java/TADs Nativos em Java"/>
+	<classpathentry kind="src" path="fonte/u07 Árvores binárias/arvoreArvore"/>
+	<classpathentry kind="src" path="fonte/u07 Árvores binárias/arvoreBinaria/java"/>
+	<classpathentry kind="src" path="fonte/u07 Árvores binárias/arvoreBinariaDeLista"/>
+	<classpathentry kind="src" path="fonte/u07 Árvores binárias/matrizDeLista"/>
+	<classpathentry kind="src" path="fonte/u08 Balanceamento de árvores/java/alvinegra"/>
+	<classpathentry kind="src" path="fonte/u08 Balanceamento de árvores/java/avl"/>
+	<classpathentry kind="src" path="fonte/u09 Tabelas e dicionários/java/doidona"/>
+	<classpathentry kind="src" path="fonte/u09 Tabelas e dicionários/java/hashDiretoRehash"/>
+	<classpathentry kind="src" path="fonte/u09 Tabelas e dicionários/java/hashDiretoReserva"/>
+	<classpathentry kind="src" path="fonte/u09 Tabelas e dicionários/java/hashIndiretoLista"/>
+	<classpathentry kind="src" path="fonte/u10 Árvores TRIE/java/patricia"/>
+	<classpathentry kind="src" path="fonte/u10 Árvores TRIE/java/trie"/>
+	<classpathentry kind="src" path="fonte/u10 Árvores TRIE/java/trieVariacoes/trieAB"/>
+	<classpathentry kind="src" path="fonte/u10 Árvores TRIE/java/trieVariacoes/trieHashAceitandoPrefixo"/>
+	<classpathentry kind="src" path="fonte/u10 Árvores TRIE/java/trieVariacoes/trieListaFlexivel"/>
+	<classpathentry kind="src" path="labs/lab01/entradaSaida/LAB01Q01 - Aquecimento Interativo"/>
+	<classpathentry kind="src" path="tps/fonte"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
