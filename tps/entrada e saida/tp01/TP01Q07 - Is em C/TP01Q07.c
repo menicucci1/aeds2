@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-
+//recebe uma string e verifica se a linha lida é igual a "FIM"
 int isFim(char s[]){
     return (strlen(s) == 3 && s[0] == 'F' && s[1] == 'I' && s[2] == 'M');
 }
-
+//recebe uma string e verifica se é formada apenas por vogais
 const char* isVogal(char s[]){
     bool resp = true;
         for(int i = 0; i < strlen(s); i++){
@@ -18,7 +18,7 @@ const char* isVogal(char s[]){
 
     return "SIM";
 }
-
+//recebe uma string e verifica se é formada apenas por consoantes
 const char* isConsoante(char s[]){
 
         for(int i = 0; i < strlen(s); i++){
@@ -31,7 +31,7 @@ const char* isConsoante(char s[]){
 
         return "SIM";
 }
-
+//recebe uma string e verifica se é composta por um numero inteiro
 const char* isInteiro(char s[]){
 
         for(int i = 0; i < strlen(s); i++){
@@ -42,7 +42,7 @@ const char* isInteiro(char s[]){
 
         return "SIM";
 }
-
+//recebe uma string e verifica se é composta por um numero real
 const char* isReal(char s[]){
     int contaVirgula = 0, contaChar = 0;
         for(int i = 0; i < strlen(s); i++){
@@ -62,7 +62,7 @@ const char* isReal(char s[]){
 
 int main(void){
     char s[1000];
-
+    
     scanf("%[^\n]", s);
 	getchar();
 
