@@ -1,4 +1,9 @@
-
+/**
+ * TP01Q13 - Ciframento em Java 
+ * 
+ * Nome: Enrico Menicucci Gomes
+ * Matricula: 741176
+ */
 
 public class TP01Q13 {
     //método que identifica se a linha lida atende a condição de parada 
@@ -6,7 +11,7 @@ public class TP01Q13 {
         return (s.length() == 3 && s.charAt(0) == 'F' && s.charAt(1) == 'I' && s.charAt(2) == 'M');
     }
 
-
+    //cifra a palavra em +3 e imprime o resultado
     public static String ciframentoRecursivo(String s, int i){
        String ciframento = "";
 
