@@ -31,7 +31,6 @@ int main(void){
    char entrada[1000];
     //faz a leitura da entrada padrão
    while(isFim(entrada) == false) {
-
        scanf(" %[^\n]s", entrada);
         //verifica se o metódo é true ou false e printa o resultado
         if (isPalindromo(entrada) == true) {
