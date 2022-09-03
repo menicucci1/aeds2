@@ -180,7 +180,6 @@ class TP01Q08 {
 
     public static void main(String[] args) {
         String endereco, html;
-        endereco = "http://maratona.crc.pucminas.br/series/Friends.html";
         html = getHtml(endereco);
 
         String[] address = new String[1000];
